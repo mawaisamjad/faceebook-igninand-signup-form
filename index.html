@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="myForm" class="form" autocomplete="off"  onsubmit="return signup(event)">
+              <h1>Sign Up</h1>
+              <input type="text" id="signup-username" name="username" required placeholder=" Username"/>
+              <input type="tel" id="tel" name="tel"  required placeholder="Contact No"/>
+              <input type="email" id="signup-email" name="email"  required placeholder="Email" />
+              <input type="password" id="signup-password" name="password"  required placeholder="Password"/>
+              <button type="submit">Submit</button>
+              <p>Already have an account? <a href="#" id="switch-to-signin">Sign In</a></p>
+          </form>
+        
+          <form id="myForm1" class="form hidden" autocomplete="off" onsubmit="return signin(event)">
+                 <h1>Sign Ip</h1>
+                  <input type="email" id="signin-email" name="email"  required placeholder="Email"/>
+                  <input type="password" id="signin-password" name="password"  required placeholder="Password"/>
+                  <button type="submit">Submit</button>
+                  <p>Do not have an account? <a href="#" id="switch-to-signup">Sign Up</a></p>
+          </form> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    

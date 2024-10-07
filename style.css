@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(./abstract-shadowy-textures-subtle-highlights-luminescence-seep-through-dark-background_764067-9315.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: rgb(26,19,26);
+    background: linear-gradient(31deg, rgba(26,19,26,1) 0%, rgba(231,207,22,0.20772058823529416) 14%);
+    padding: 20px;
+    border-radius: 5px;
+   
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #218838;
+}
+
+.hidden {
+    display: none;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+}
+p a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
